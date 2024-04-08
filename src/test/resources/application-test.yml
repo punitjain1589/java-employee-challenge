@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: employeeApp
+
+server:
+  port: 9091
+  servlet:
+    context-path: /myapp
+
+employee:
+  api:
+    base-url: http://localhost:8081

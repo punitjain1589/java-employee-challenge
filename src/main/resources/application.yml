@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: employeeApp
+
+server:
+  port: 9090
+  servlet:
+    context-path: /myapp
+
+employee:
+  api:
+    base-url: https://dummy.restapiexample.com
